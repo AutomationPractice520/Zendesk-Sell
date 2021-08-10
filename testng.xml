@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Zendesk Sell Application">
+    <listeners>
+        <listener class-name="main.java.utils.SuiteListener"/>
+    </listeners>
+    <test name="Zendesk Sell Status Check">
+        <parameter name="browserName" value="chrome"/>
+        <classes>
+            <class name="test.java.SampleTest"/>
+        </classes>
+    </test>
+</suite>
